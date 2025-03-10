@@ -5,7 +5,7 @@ const twilio = require('twilio');
 // Twilio credentials
 const accountSid = 'AC19958e303a4b922643ab70f634fd0719';  // Your Twilio Account SID
 const authToken = 'e9324f48bcabaf09944c9a6679400eb9';    // Your Twilio Auth Token
-const client = twilio(accountSid, authToken);
+// const client = twilio(accountSid, authToken);
 
 exports.createLiasoning = async (req, res) => {
     try {
